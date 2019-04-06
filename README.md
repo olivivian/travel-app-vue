@@ -11,6 +11,8 @@ npm install fastclick --save
 npm install stylus --save
 npm install stylus-loader --save
 
+#轮播
+npm install vue-awesome-swiper@2.6.7 --save
 
 # travel-app-vue
 
