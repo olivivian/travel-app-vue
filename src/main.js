@@ -5,6 +5,7 @@ import store from './store'
 import fastClick from 'fastclick'
 import 'styles/reset.css'
 import 'styles/border.css'
+import 'styles/iconfont/iconfont.css'
 
 Vue.config.productionTip = false
 
