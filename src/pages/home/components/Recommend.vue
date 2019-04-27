@@ -3,7 +3,7 @@
     <div class="title">热销推荐</div>
     <ul>
       <li class="item border-bottom"
-          v-for="item of recommendList"
+          v-for="item of list"
           :key="item.id"
       >
         <div class="item-img-wrapper">
@@ -22,20 +22,11 @@
 <script>
 export default {
   name: 'HomeRecommend',
+  props:{
+    list:Array
+  },
   data () {
     return {
-      recommendList:[{
-        id:'0001',
-        imgUrl:require('../../../assets/img/recommend/01.png'),
-        title:'大连圣亚海洋世界',
-        desc:'浪漫大连首站，浪漫的海洋主题乐园'
-      },
-        {
-          id:'0002',
-          imgUrl:require('../../../assets/img/recommend/02.png'),
-          title:'贵安欢乐世界',
-          desc:'浪漫贵安，浪漫的贵安欢乐世界'
-        }]
     }
   }
 }

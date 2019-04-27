@@ -7,7 +7,7 @@
       <span class="iconfont iconsousuo"></span>
       请输入城市/景点/游玩主题</div>
     <div class="header-right">
-      城市
+      {{city}}
         <span class="iconfont iconxiangxia arrow-icon"></span>
     </div>
   </div>
@@ -17,6 +17,11 @@
 <script>
 export default {
   name: 'HomeHeader',
+  props:{
+    city:String
+  },
+  mounted(){
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
