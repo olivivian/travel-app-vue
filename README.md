@@ -1,3 +1,6 @@
+#滚动Better-scroll的使用
+npm install better-scroll --save
+
 #样式初始化
 reset.css
 
